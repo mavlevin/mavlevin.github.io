@@ -3,7 +3,7 @@ layout: post
 title: Color Post
 tags: [Test, Color]
 color: brown
-author: sylhare
+author: guy
 excerpt_separator: <!--more-->
 ---
 

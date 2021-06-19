@@ -3,7 +3,7 @@ rohanchandra: # author-id
   avatar: "https://avatars2.githubusercontent.com/u/816965?s=460&v=4"
   url: "https://github.com/rohanchandra"
 sylhare:
-  name: Sylhare
+  name: SylhareAAA
   avatar: "https://avatars3.githubusercontent.com/u/20642750?s=460&v=4"
   url: "https://github.com/sylhare"
 mmistakes:
@@ -18,3 +18,7 @@ unknown:
   name: Unknown
   avatar:
   url:
+guy:
+  name: "Guy Levin"
+  avatar: "https://avatars.githubusercontent.com/u/33753158?s=460&v=4"
+  url: "/about/"
