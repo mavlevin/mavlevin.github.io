@@ -8,28 +8,7 @@ excerpt_separator: <!--more-->
 ---
 
 If you too have been personally victimized by Python3’s `'str' object has no attribute 'decode' exception` and other string/bytes\-related exceptions, I feel your agony. Trauma from such errors have stopped me from using Python3 for code handling buffers, like POCs for vulnerabilities or CTF exploits. Here’s a reference guide on how to convert between Python3’s hexstr/str/bytes/bytearray.
-
-# Python3 Buffer Type Review
-## str
-* Example: `mystr = “don’t forget your daily calcium”`
-* An immutable unicode string
-* Created statically using quotes. 
-
-## hexstring
-* Example: “calc” is ``“63616c63”`
-* A str consisting of hexadecimal numbers \(0\-9, a\-f\). 
-* Primarily used to convert binary data to a printable format. 
-* Created like str, but contains only hexadecimal numbers
-
-## bytes
-* Example: `mybytes = b“bring all the boys to the yard”`
-* An immutable array of one\-byte elements
-* Created statically by putting the letter “b” before quotes
-
-## bytearray
-* Example: `mybytearray = bytearray(b”I’ll grow up to be in a bytearray”) `
-* A mutable list of one\-byte elements
-* Created through the `bytearray` constructor, which is initialized with a more primitive type \(such as bytes, str\)
+<!--more-->
 
 # Ultimate Python3 Type Conversion Chart
 This has helped me when it was in my personal notes. Hopefully, now it can help you, too.
@@ -94,8 +73,29 @@ mystr = open("C:\whtaguy\orderyogurt.py", "r").read()
 Open the file using "rb"
 Example: 
 ```python
-mybytes = open("C:\whtaguy\orderyogurt.py", "r").read()
+mybytes = open("C:\whtaguy\orderyogurt.py", "rb").read()
 ```
-Congratulations. You are now empowered to handle Python3’s buffer frenzy. Welcome to your new, shiny life.
+
+# Python3 Buffer Type Review
+## str
+* Example: `mystr = “don’t forget your daily calcium”`
+* An immutable unicode string
+* Created statically using quotes. 
+
+## hexstring
+* Example: “calc” is `“63616c63”`
+* A str consisting of hexadecimal numbers \(0\-9, a\-f\). 
+* Primarily used to convert binary data to a printable format. 
+* Created like str, but contains only hexadecimal numbers
+
+## bytes
+* Example: `mybytes = b“bring all the boys to the yard”`
+* An immutable array of one\-byte elements
+* Created statically by putting the letter “b” before quotes
+
+## bytearray
+* Example: `mybytearray = bytearray(b”I’ll grow up to be in a bytearray”) `
+* A mutable list of one\-byte elements
+* Created through the `bytearray` constructor, which is initialized with a more primitive type \(such as bytes, str\)
 
 {% include image.html url="/assets/img/posts\thats_all_folks.gif" caption="" alt="" %}
