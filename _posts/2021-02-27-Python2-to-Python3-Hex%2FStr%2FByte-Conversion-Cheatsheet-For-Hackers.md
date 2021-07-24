@@ -28,10 +28,6 @@ table {
     overflow-x: auto;
     white-space: nowrap;  
 }
-table th, td {
-    padding: 5px;
-    
-}
 .darkblue {
     color: #13378A;
 }
