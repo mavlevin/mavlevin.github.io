@@ -4,7 +4,7 @@ title: >
     What Value Is Stored In Uninitialized Variables?
 hide_title: false
 tags: ['Reverse Engineering', 'Uninitialized Variables', 'safe code', 'C/C++', 'Uninitialized Memory Vulnerability']
-excerpt_separator: >
+excerpt: >
     The value in an uninitialized variable is one of: zero, a compiler dependent value \(such as 0xCC's in visual studio\), or data previously stored in that memory location (old data). Let's examine why.
 ---
 The value in an uninitialized variable is one of: zero, a compiler dependent value \(such as 0xCC's in visual studio\), or data previously stored in that memory location \(old data\). 
