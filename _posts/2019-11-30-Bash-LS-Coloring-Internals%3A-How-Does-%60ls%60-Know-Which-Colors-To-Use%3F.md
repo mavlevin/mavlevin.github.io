@@ -9,6 +9,7 @@ excerpt_separator: <!--more-->
 
 {% include image.html url="/assets/img/posts\ls_slash_dev.png" caption="" alt="" %}
 Many of us take for granted ls's convenient display, and probably didn't ever stop to consider how it even knows which colors to use for which files. This very question sparked my curiosity and lead me to researching the internals of this mechanism.
+<!--more-->
 
 While ls is open source and you can read its [code](https://github.com/coreutils/coreutils/blob/master/src/ls.c) to understand the underlying logic, I decided not to do so as I wanted to take a black box approach.
 
