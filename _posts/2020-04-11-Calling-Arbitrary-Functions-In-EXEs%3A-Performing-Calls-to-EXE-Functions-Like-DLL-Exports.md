@@ -4,12 +4,12 @@ title: >
     Calling Arbitrary Functions In EXEs: Performing Calls to EXE Functions Like DLL Exports
 hide_title: false
 tags: ['Reverse Engineering', 'Assembly', 'C/C++']
-excerpt_separator: <!--more-->
+excerpt: When reversing or fuzzing an executable, being able to run an arbitrary function with controlled data is extremely helpful. A dll (Dynamic Linked Library) with our target function would allow us to conveniently review and test the function as we wish. The only problem is that usually the function we want to examine resides in an exe, not a dll. Converting an exe to a dll is a doable. After all, both an exe and a dll share the same PE file format.
 ---
 ## Motivation
 When reversing or fuzzing an executable, being able to run an arbitrary function with controlled data is extremely helpful. Through iteratively playing with the function's parameters and examining the output, we can better understand the function's logic.
 ## Background
-A dll \(Dynamic Linked Library\) with our target function would allow us to conveniently review and test the function as we wish. The only problem is that usually the function we want to examine resides in an exe, not a dll. Converting¹ an exe to a dll is a solvable challenge. After all, <u>both an exe and a dll share the same [PE \(Portable Executable\) file format](https://en.wikipedia.org/wiki/Portable_Executable).</u> So let's explore, **how can we convert¹ an exe to a dll?**
+A dll \(Dynamic Linked Library\) with our target function would allow us to conveniently review and test the function as we wish. The only problem is that usually the function we want to examine resides in an exe, not a dll. Converting¹ an exe to a dll is a solvable challenge. After all, <u>both an exe and a dll share the same [PE \(Portable Executable\) file format](https://en.wikipedia.org/wiki/Portable_Executable).</u> So let's explore, <!--more--> **how can we convert¹ an exe to a dll?**
 
 Spoiler: there are a few more steps than just changing the extension 😉
 
