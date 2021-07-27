@@ -4,7 +4,7 @@ title: >
     Attacking The Network's Security Core - Hunting For Vulnerabilities In A Network Security Tool
 hide_title: false
 tags: ['Tools', 'vulnerabilities', 'Nipper', 'CVE']
-excerpt_separator: <!--more-->
+excerpt: This is Part 1 in a 4 part series about my process hunting for vulnerabilities in a network auditing tool (used to protect networks by detecting and fixing security holes) and fully exploiting one of the vulnerabilities I found.
 ---
 
 {% include image.html url="/assets/img/posts\network_security_core_lock.jpg" caption="A network can only be as secure as the tools used to secure it" alt="" %}
@@ -16,10 +16,10 @@ I decided to look for \(and successfully found\) vulnerabilities in network secu
 One such network security tool that came to mind is [Nipper\-ng](https://code.google.com/archive/p/nipper-ng/), a firewall security auditing tool and firewall configuration parser. In addition to being a security product itself, Nipper\-ng is used behind the scenes in other security products such as [ManageEngine's OpManager](https://www.manageengine.com/network-monitoring/) and [Firewall Analyzer](https://www.manageengine.com/products/firewall/). The tool is also included in all installations of [Kali Linux](https://tools.kali.org/reporting-tools/nipper-ng), a penetration\-testing oriented Linux distribution.
 
 {% include image.html url="/assets/img/posts\nipper_console_help_dark_minimal.png" caption="" alt="" %}
-#### Exploitation Scenario
+### Exploitation Scenario
 Nipper\-ng can be exploited if after an attacker gains access to a firewall in a network, when the firewall is audited, the attacker passes a malicious configuration file instead of the original one. The malicious configuration file can have a weaponized exploit \(we’ll see a weaponized configuration file later in the blog series\), which when parsed by nipper\-ng will run code on the auditing machine\! An invaluable win for the attacker, and a devastating loss for the defender, who now has the attackers code running on his or her computer.
 ## Vulnerability Hunting Methodology
-#### Manual Analysis
+### Manual Analysis
 After concluding that the most exposed attack surface is parsing a firewall configuration file an attacker controls, I moved on to examining the code that parses this input.
 
 When hunting for vulnerabilities in a new codebase, the first thing I do is skim over the code to get a general idea of the code's style and the security practices followed. Specifically when skimming C/C\+\+ code I take notice of:
@@ -29,17 +29,17 @@ When hunting for vulnerabilities in a new codebase, the first thing I do is skim
 
 
 After forming an impression of the codebase's patterns and mapping out the attack surface, I look for vulnerabilities that can be triggered from input I control. In the case of Nipper\-ng, that means looking at functions that parse the firewall configuration file. 
-#### Fuzzing
+### Fuzzing
 When there is a lot of code to audit, running a fuzzer can be extremely useful in finding bugs in hard to see edge cases that might otherwise be overlooked in manual review. I used [honggfuzz](https://github.com/google/honggfuzz) to fuzz against nipper\-ng with slight code modifications.  I ran the fuzzer for a day which resulted in 10 Million fuzz iterations achieving 57 crashes stemming from 2 unique vulnerabilities. I will describe the fuzzing process and setup in more detail in a future blog post \(blog post \#4\).
 ## Results
 Summarized below are the vulnerabilities I found and reported. Each vulnerability is described in detail in one of the following parts of the blog post series.
-#### CVE\-2019\-17424
+### CVE\-2019\-17424
 A Stack Overflow Vulnerability in the processPrivilage\(\) function in process\-general.c.
-#### CVE\-2019\-17425
+### CVE\-2019\-17425
 A Heap Overflow Vulnerability in the htmlFriendly\(\) function in nipper\-common.c
-#### CVE\-2019\-17422
+### CVE\-2019\-17422
 Null Dereference Vulnerability in the processLine\(\) function in process\-line.c
-#### CVE\-2019\-17423
+### CVE\-2019\-17423
 Uninitialized variable usage leading to DOS in processLine\(\) function in process\-line.c
 
 Vulnerability hunting only the Cisco firewall parser's code surfaced these 4 vulnerabilities that I have decided to disclose at this time. I found other vulnerabilities in the Cisco firewall parsing, but none that could easily lead to RCE. It is left as an exercise to the reader to find the remaining vulnerabilities.
