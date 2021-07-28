@@ -23,14 +23,14 @@ color_image: /assets/img/lineart.png                    # A bit transparent for 
 # For layout customization, go to the "_sass > base" folder, and check "_variables.scss"
 katex: false                                             # Enable if using math markup
 mermaid: true                                           # Enable mermaid-js for sequence and diagrams
-google_analytics:                                       # Tracking ID, e.g. "UA-000000-01"
+google_analytics: UA-138291732-1                        # Tracking ID, e.g. "UA-000000-01"
 cookie_consent: false                                   # To respect the usage of cookies
 color_theme: auto                                       # auto, dark or light
 
 # Comments
 comments:
   disqus_shortname:                                     # Your discus shortname for comments
-  cusdis_app_id:                                        # Your cusdis data-app-id
+  cusdis_app_id: df178f72-7822-4990-8d3f-3eb875fe8e9d   # Your cusdis data-app-id
   utterances:                                           # Enable by filling below information. For more info, go to https://utteranc.es
     repo:                                               # your public comments repository (e.g. owner/repo)
     issue-term:                                         # Issue term (e.g. "comment" consider issues with this word in the title as comments)
