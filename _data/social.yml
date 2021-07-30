@@ -6,12 +6,12 @@ feed:
 
 # Share button options
 share:
-  email: true
-  facebook: true
-  linkedin: true
+  email: false
+  facebook: false
+  linkedin: false
   pinterest: false
-  pocket:
-  reddit: true
-  tumblr: true
-  twitter: true
-  wordpress:
+  pocket: false
+  reddit: false
+  tumblr: false
+  twitter: false
+  wordpress: false
