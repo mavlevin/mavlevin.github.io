@@ -5,6 +5,7 @@ title: >
 hide_title: false
 tags: ['Reverse Engineering', 'exercise', 'Assembly', 'C/C++']
 excerpt_separator: <!--more-->
+author: guy
 ---
 Imagine if your first reverse engineering exercise was to reconstruct an encrypted IAT – if you don’t fully know what that means, that’s the point: beginner reverse engineering exercises should be clear (and fun)!
 <!--more-->

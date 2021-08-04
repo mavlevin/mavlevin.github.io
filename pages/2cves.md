@@ -2,7 +2,7 @@
 layout: page
 title: My CVEs
 permalink: /cve/
-feature-img: "assets/img/white-wood.jpg"
+feature-img: "assets/img/red-wood.jpg"
 ---
 
 | Product            | CVE            | Vulnerability Impact |
@@ -26,4 +26,4 @@ feature-img: "assets/img/white-wood.jpg"
 
 [Ptrace Security Bulletin](https://www.ptrace-security.com/blog/it-security-news-bulletin-39/) on uTorrent vulnerability
 
-[Day0 Podcast](https://dayzerosec.com/podcast/transcripts/episode-77.html) on D-Link vulnerability
+[Day0 Podcast](https://dayzerosec.com/podcast/transcripts/episode-77.html) on D-Link Router vulnerability

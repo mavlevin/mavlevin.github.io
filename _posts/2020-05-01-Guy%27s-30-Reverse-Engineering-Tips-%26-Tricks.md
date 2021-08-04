@@ -5,6 +5,7 @@ title: >
 hide_title: false
 tags: ['Reverse Engineering', 'Assembly']
 excerpt_separator: <!--more-->
+author: guy
 ---
 
 During April I challenged myself to tweet 1 reverse engineering tip every day. For your viewing pleasure, here I aggregated all 30 tips.

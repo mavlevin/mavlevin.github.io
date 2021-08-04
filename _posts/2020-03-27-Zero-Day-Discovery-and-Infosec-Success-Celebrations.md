@@ -5,6 +5,7 @@ title: >
 hide_title: false
 tags: ['vulnerabilities']
 excerpt_separator: <!--more-->
+author: guy
 ---
 With the world in quarantine and isolation because of COVID\-19, I decided to publish a blog post reminding us of more cheerful times.
 

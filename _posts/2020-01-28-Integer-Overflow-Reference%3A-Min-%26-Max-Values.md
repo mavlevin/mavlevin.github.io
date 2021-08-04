@@ -5,6 +5,7 @@ title: >
 hide_title: false
 tags: ['vulnerabilities', 'Integer Overflow', 'safe code', 'Uninitialized Memory Vulnerability']
 excerpt_separator: <!--more-->
+author: guy
 ---
 
 A reference for when working with integers, and looking for integer overflows and underflows.

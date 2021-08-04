@@ -2,6 +2,7 @@
 layout: post
 title: Dark Mode
 tags: [Katex, Markdown]
+author: guy
 ---
 
 **More colors with less light.**

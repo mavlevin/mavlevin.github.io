@@ -5,6 +5,7 @@ title: >
 hide_title: false
 tags: ['Reverse Engineering', 'Assembly']
 excerpt_separator: <!--more-->
+author: guy
 ---
 
 {% include image.html url="/assets/img/posts\fibonacci_spiral.jpg" caption="" alt="fibonacci spiral" %}

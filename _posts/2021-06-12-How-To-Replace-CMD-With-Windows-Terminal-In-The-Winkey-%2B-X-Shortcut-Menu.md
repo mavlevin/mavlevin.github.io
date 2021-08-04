@@ -6,6 +6,7 @@ hide_title: false
 tags: ['Tools', 'not security']
 excerpt_separator: <!--more-->
 # thumbnail: "assets/img/thumbnails/feature-img/desk-messy.jpeg"
+author: guy
 ---
 I want to upgrade from CMD to Microsoft's fancy & shiny Windows Terminal. However, the Windows Key\+X then C shortcut I use to open a shell \(or Windows Key \+ X then A for Powershell by default\) doesn’t support opening Windows Terminal. Here’s how I patched that keyboard shortcut to open Windows Terminal. <!--more-->
 

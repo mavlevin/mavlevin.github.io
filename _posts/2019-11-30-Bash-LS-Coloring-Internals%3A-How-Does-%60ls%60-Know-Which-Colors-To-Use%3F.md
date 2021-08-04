@@ -5,6 +5,7 @@ title: >
 hide_title: false
 tags: ['not security', 'C/C++']
 excerpt_separator: <!--more-->
+author: guy
 ---
 
 {% include image.html url="/assets/img/posts\ls_slash_dev.png" caption="" alt="" %}

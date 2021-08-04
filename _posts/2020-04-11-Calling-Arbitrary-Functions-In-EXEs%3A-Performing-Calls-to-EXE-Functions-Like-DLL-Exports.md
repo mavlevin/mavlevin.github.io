@@ -5,6 +5,7 @@ title: >
 hide_title: false
 tags: ['Reverse Engineering', 'Assembly', 'C/C++']
 excerpt: When reversing or fuzzing an executable, being able to run an arbitrary function with controlled data is extremely helpful. A dll (Dynamic Linked Library) with our target function would allow us to conveniently review and test the function as we wish. The only problem is that usually the function we want to examine resides in an exe, not a dll. Converting an exe to a dll is a doable. After all, both an exe and a dll share the same PE file format.
+author: guy
 ---
 ## Motivation
 When reversing or fuzzing an executable, being able to run an arbitrary function with controlled data is extremely helpful. Through iteratively playing with the function's parameters and examining the output, we can better understand the function's logic.
