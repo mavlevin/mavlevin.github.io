@@ -2,7 +2,7 @@
 layout: page
 title: My CVEs
 permalink: /cve/
-feature-img: "assets/img/red-wood.jpg"
+feature-img: "assets/img/mdf-wood.jpg"
 ---
 
 | Product            | CVE            | Vulnerability Impact |

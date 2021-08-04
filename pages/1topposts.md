@@ -1,9 +1,8 @@
 ---
 layout: page
 title: Top Posts
-subtitle: Top Posts By Popularity
 permalink: /top-posts/
-feature-img: "assets/img/purple-wood.jpg"
+feature-img: "assets/img/teal-bricks.jpg"
 ---
 
 1. [Guy's 30 Reverse Engineering Tips & Tricks](/2020/05/01/Guy-27s-30-Reverse-Engineering-Tips-26-Tricks.html)
