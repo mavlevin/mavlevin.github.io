@@ -22,6 +22,14 @@
     <ul class="hide">
         {% assign name_page = "" %}
 
+        <li class="separator"> | </li>
+        <li>
+            <a class="clear" aria-label="Home" title="Home" href="/">
+                Home
+            </a>
+        </li>
+
+
         {% for page in site.pages %}
             {% unless page.title == null or page.hide or name_page contains page.title %}
             <li class="separator"> | </li>
