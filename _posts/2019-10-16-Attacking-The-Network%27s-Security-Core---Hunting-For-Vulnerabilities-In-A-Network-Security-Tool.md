@@ -49,8 +49,8 @@ I had the pleasure of talking with the wonderful support team of the company tha
 To protect users I have decided to create patches myself for the vulnerabilities I have found that can lead to RCE \(CVE\-2019\-17424 and CVE\-2019\-17425\). I'll provide a link to the patches next post.
 ## Next Chapters
 This is Part 1 in a 4 part series about my process hunting for  vulnerabilities in a network auditing tool and fully exploiting one of  the vulnerabilities I found. I recommend reading the series in ascending  numeric order.
-1. [Attacking The Network's Security Core \- Hunting For Vulnerabilities In A Network Security Tool](https://blog.vastart.dev/2019/10/attacking-networks-security-core.html) \(this\)
-2. [Stack Overflow CVE\-2019\-17424 Vulnerability Write\-Up and RCE Exploit Walk Through](https://blog.vastart.dev/2019/10/stack-overflow-cve-2019-17424.html)
+1. [Attacking The Network's Security Core \- Hunting For Vulnerabilities In A Network Security Tool](/2019/10/16/Attacking-The-Network-27s-Security-Core-Hunting-For-Vulnerabilities-In-A-Network-Security-Tool.html) \(this\)
+2. [Stack Overflow CVE\-2019\-17424 Vulnerability Write\-Up and RCE Exploit Walk Through](/2019/10/20/Stack-Overflow-CVE-2019-17424-Vulnerability-Write-Up-and-RCE-Exploit-Walk-Through.html)
 3. Heap Overflow CVE\-2019\-17425 Vulnerability Write\-Up and Information Leak Exploit Explained \(coming soon\)
 4. Fuzzing A Network Security Product \- Finding CVE\-2019\-17422 & CVE\-2019\-17423 With The HonggFuzz Fuzzer \(coming soon\)
 
