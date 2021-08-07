@@ -4,11 +4,20 @@ title: >
     How To Replace CMD With Windows Terminal In The Winkey + X Shortcut Menu
 hide_title: false
 tags: ['Tools', 'not security']
-excerpt_separator: <!--more-->
+excerpt: I instincitvely use the Winkey+X menu to open cmd, but I want to upgrade to Windows Terminal. This is my hacky solution to add Windows Terminal to the Winkey+X menu (before it was natively supported in Windows 11).
 # thumbnail: "assets/img/thumbnails/feature-img/desk-messy.jpeg"
 author: guy
 ---
-I want to upgrade from CMD to Microsoft's fancy & shiny Windows Terminal. However, the Windows Key\+X then C shortcut I use to open a shell \(or Windows Key \+ X then A for Powershell by default\) doesn’t support opening Windows Terminal. Here’s how I patched that keyboard shortcut to open Windows Terminal. <!--more-->
+
+# Update: Windows 11 Now natively supports this!
+
+{% include image.html url="/assets/img/posts/Windows-terminal-in-winkey-x-menu.jpg" %}
+
+Windows 11 now natively supports the Windows Terminal in the winkey + X menu! So there's no need for this post, but I'll leave it for the curious readers and those of us on Windows 10.
+
+---
+
+I want to upgrade from CMD to Microsoft's fancy & shiny Windows Terminal. However, the Windows Key\+X then C shortcut I use to open a shell \(or Windows Key \+ X then A for Powershell by default\) doesn’t support opening Windows Terminal. Here’s how I patched that keyboard shortcut to open Windows Terminal.
 
 *Disclaimer: This is my own patchy fix found for fun at 4am after a night of hacking. Proceed at your own risk.*
 
