@@ -1,7 +1,7 @@
 ---
 layout: post
 title: >
-    Python2 to Python3 Hex/Str/Byte Conversion Cheatsheet For Hackers
+    Python2 to Python3 Hex/Str/Byte Conversion Cheatsheet
 hide_title: false
 tags: ['Tools', 'not security']
 excerpt_separator: <!--more-->
