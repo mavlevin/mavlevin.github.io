@@ -7,6 +7,7 @@ tags: ['Tools', 'not security']
 excerpt: I instincitvely use the Winkey+X menu to open cmd, but I want to upgrade to Windows Terminal. This is my hacky solution to add Windows Terminal to the Winkey+X menu (before it was natively supported in Windows 11).
 # thumbnail: "assets/img/thumbnails/feature-img/desk-messy.jpeg"
 author: guy
+redirect_from: /2021/06/how-to-replace-cmd-with-windows.html
 ---
 
 # Update: Windows 11 Now natively supports this!

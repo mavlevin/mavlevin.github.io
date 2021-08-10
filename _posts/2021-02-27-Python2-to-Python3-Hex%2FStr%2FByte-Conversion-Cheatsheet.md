@@ -6,6 +6,7 @@ hide_title: false
 tags: ['Tools', 'not security']
 excerpt_separator: <!--more-->
 author: guy
+redirect_from: /2021/02/python2-python3-hexstrbyte-conversion.html
 ---
 
 If you too have been personally victimized by Python3’s `'str' object has no attribute 'decode' exception` and other string/bytes\-related exceptions, I feel your agony. Trauma from such errors have stopped me from using Python3 for code handling buffers, like POCs for vulnerabilities or CTF exploits. Here’s a reference guide on how to convert between Python3’s hexstr/str/bytes/bytearray.

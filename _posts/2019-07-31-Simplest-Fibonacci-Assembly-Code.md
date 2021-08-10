@@ -6,6 +6,7 @@ hide_title: false
 tags: ['Reverse Engineering', 'Assembly']
 excerpt_separator: <!--more-->
 author: guy
+redirect_from: /2019/07/simplest-fibonacci-assembly-code.html
 ---
 
 {% include image.html url="/assets/img/posts\fibonacci_spiral.jpg" caption="" alt="fibonacci spiral" %}

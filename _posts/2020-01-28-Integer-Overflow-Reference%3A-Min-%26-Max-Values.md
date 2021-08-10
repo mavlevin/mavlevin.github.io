@@ -6,6 +6,7 @@ hide_title: false
 tags: ['vulnerabilities', 'Integer Overflow', 'safe code', 'Uninitialized Memory Vulnerability']
 excerpt_separator: <!--more-->
 author: guy
+redirect_from: /2020/01/integer-overflow-reference-min-max.html
 ---
 
 A reference for when working with integers, and looking for integer overflows and underflows.

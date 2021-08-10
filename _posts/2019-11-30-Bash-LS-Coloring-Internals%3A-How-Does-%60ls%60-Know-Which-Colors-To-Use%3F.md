@@ -6,6 +6,7 @@ hide_title: false
 tags: ['not security', 'C/C++']
 excerpt_separator: <!--more-->
 author: guy
+redirect_from: /2019/11/bash-ls-coloring-internals-how-does-ls.html
 ---
 
 {% include image.html url="/assets/img/posts\ls_slash_dev.png" caption="" alt="" %}

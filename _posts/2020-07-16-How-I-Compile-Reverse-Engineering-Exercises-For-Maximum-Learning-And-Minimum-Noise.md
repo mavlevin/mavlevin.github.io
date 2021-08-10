@@ -6,6 +6,7 @@ hide_title: false
 tags: ['Reverse Engineering', 'exercise', 'Assembly', 'C/C++']
 excerpt_separator: <!--more-->
 author: guy
+redirect_from: /2020/08/how-i-compile-reverse-engineering.html
 ---
 Imagine if your first reverse engineering exercise was to reconstruct an encrypted IAT – if you don’t fully know what that means, that’s the point: beginner reverse engineering exercises should be clear (and fun)!
 <!--more-->

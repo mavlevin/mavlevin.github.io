@@ -6,6 +6,7 @@ hide_title: false
 tags: ['Reverse Engineering', 'C/C++']
 excerpt: When researching or just tinkering with Windows and Microsoft executables, having the source code is a great advantage. This short article is a collection of links to Windows and Microsoft code, and a story about it.
 author: guy
+redirect_from: /2020/07/windows-source-code-leaks.html
 ---
 *Disclaimer: The information presented in this blog post is for educational purposes only.*
 

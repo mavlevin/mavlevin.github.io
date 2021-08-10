@@ -6,6 +6,7 @@ hide_title: false
 tags: ['Tools', 'vulnerabilities', 'Nipper', 'CVE']
 excerpt: This is Part 1 in a 4 part series about my process hunting for vulnerabilities in a network auditing tool (used to protect networks by detecting and fixing security holes) and fully exploiting one of the vulnerabilities I found.
 author: guy
+redirect_from: /2019/10/attacking-networks-security-core.html
 ---
 
 {% include image.html url="/assets/img/posts\network_security_core_lock.jpg" caption="A network can only be as secure as the tools used to secure it" alt="" %}
