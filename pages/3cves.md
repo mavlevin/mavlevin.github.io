@@ -30,4 +30,4 @@ feature-img: "assets/img/mdf-wood.jpg"
 
 # In Hacker Tools
 
-[Serv-U FTP Server exploit metasploit module]https://www.rapid7.com/db/modules/exploit/linux/local/servu_ftp_server_prepareinstallation_priv_esc/
+[Metasploit Exploit Module](https://www.rapid7.com/db/modules/exploit/linux/local/servu_ftp_server_prepareinstallation_priv_esc/) for Serv-U FTP Server vulnerability
