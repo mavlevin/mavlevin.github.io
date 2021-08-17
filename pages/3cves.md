@@ -27,3 +27,7 @@ feature-img: "assets/img/mdf-wood.jpg"
 [Ptrace Security Bulletin](https://www.ptrace-security.com/blog/it-security-news-bulletin-39/) on uTorrent vulnerability
 
 [Day0 Podcast](https://dayzerosec.com/podcast/transcripts/episode-77.html) on D-Link Router vulnerability
+
+# In Hacker Tools
+
+[Serv-U FTP Server exploit metasploit module]https://www.rapid7.com/db/modules/exploit/linux/local/servu_ftp_server_prepareinstallation_priv_esc/
