@@ -15,6 +15,7 @@ feature-img: "assets/img/mdf-wood.jpg"
 |                    | CVE-2019-17425 | Remote Code Execution                     |
 | uTorrent           | CVE-2020-8437  | Remote Crash                     |
 | D-Link Router      | CVE-2021-27342 | Vulnerability Mitigation Bypass                     |
+| (Temporarily Redacted)     | CVE-2022-35420 | (Temporarily Redacted)                     |
 
 # In The Media
 
