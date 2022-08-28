@@ -9,7 +9,7 @@ feature-img: "assets/img/guy_levin_zebra_snowboard.png"
 <img style="width: 50%; max-width: 400px;" src="/assets/img/Guy-Levin-Hacker-Profile.png" />
 </div>
 
-My name is Guy Levin, and my childhood nickname has been "Guy what a Guy", so I decided to call my blog after that.
+My name is Guy Maverick Levin, and my childhood nickname has been "Guy what a Guy", so I decided to call my blog after that.
 
 Today, I am a student at [Stanford University](https://profiles.stanford.edu/guy-levin) after serving more than four years in the signal intelligence [Unit 8200](https://en.wikipedia.org/wiki/Unit_8200).
 
