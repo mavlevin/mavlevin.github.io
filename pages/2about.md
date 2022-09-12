@@ -6,7 +6,7 @@ feature-img: "assets/img/guy_levin_zebra_snowboard.png"
 ---
 
 <div style="text-align: center">
-<img style="width: 50%; max-width: 400px;" src="/assets/img/Guy-Levin-Hacker-Profile.png" />
+<img style="width: 50%; max-width: 400px;" src="/assets/img/Guy Maverick Levin Blockchain Hacker (circle crop).png" />
 </div>
 
 My name is Guy Maverick Levin, and my childhood nickname has been "Guy what a Guy", so I decided to call my blog after that.
