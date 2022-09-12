@@ -78,5 +78,8 @@ vk:
 wordpress:
   pre: "https://"
   pos: ".wordpress.com/"
+stanford:
+  pre: "https://profiles.stanford.edu/"
+  icon: "fas fa-university"
 youtube:
   pre: "https://www.youtube.com/channel/"
