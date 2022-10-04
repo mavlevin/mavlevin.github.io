@@ -1,15 +1,15 @@
 # SITE CONFIGURATION
 baseurl: ""
-url: "https://guywhataguy.github.io"
+url: "https://mavlevin.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
-title: whtaguy                                    # site's title
+title: mavlevin                                    # site's title
 description: "I write about reverse engineering, vulnerability research, binary exploitation and operating system internals"      # used by search engines
 avatar: assets/img/whtaguy_logo.png                         # Empty for no avatar in navbar
 favicon: assets/favicon.ico                             # Icon displayed in the tab
 
 # Header and footer text
-header_text: whtaguy research # Change Blog header text
+header_text: mavlevin research # Change Blog header text
 header_feature_image: assets/img/whtaguy_research_bg.png
 footer_text: 2022 Guy Maverick Levin. All Rights Reserved.
 
