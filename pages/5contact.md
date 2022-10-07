@@ -7,7 +7,7 @@ feature-img: "assets/img/white-wood.jpg"
 
 # Twitter
 
-Find out more about what I'm doing and feel free to tag me or direct message me on Twitter at [@mavlevin](twitter.com/mavlevin).
+Find out more about what I'm doing and feel free to tag me or direct message me on Twitter at [@mavlevin](https://twitter.com/mavlevin).
 
 # Email
 
