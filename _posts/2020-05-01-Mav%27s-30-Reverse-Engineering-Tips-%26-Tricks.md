@@ -1,7 +1,7 @@
 ---
 layout: post
 title: >
-    Guy's 30 Reverse Engineering Tips & Tricks
+    Mav's 30 Reverse Engineering Tips & Tricks
 hide_title: false
 tags: ['Reverse Engineering', 'Assembly']
 excerpt_separator: <!--more-->
@@ -11,7 +11,7 @@ redirect_from: /2020/04/guys-30-reverse-engineering-tips-tricks.html
 
 During April I challenged myself to tweet 1 reverse engineering tip every day. For your viewing pleasure, here I aggregated all 30 tips.
 <!--more-->
-Be sure to [follow me @whtaguy](https://twitter.com/whtaguy) for my latest tweets and more reverse engineering extravaganza.
+Be sure to [follow me @mavlevin](https://twitter.com/mavlevin) for my latest tweets and more reverse engineering extravaganza.
 
 <style>
 li {margin-bottom: 1em;}
