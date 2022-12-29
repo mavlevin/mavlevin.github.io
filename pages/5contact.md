@@ -11,4 +11,4 @@ Find out more about what I'm doing and feel free to tag me or direct message me 
 
 # Email
 
-You can also shoot me an email at [contact@whtaguy.com](mailto:contact@mavericklevin.com). I answer questions and requests as soon as possible.
+You can also shoot me an email at [contact@mavlevin.com](mailto:contact@mavlevin.com). I answer questions and requests as soon as possible.
