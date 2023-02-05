@@ -9,13 +9,13 @@ feature-img: "assets/img/mdf-wood.jpg"
 |--------------------|----------------|----------------------|
 | Serv-U FTP Server    | CVE-2019-12181 | Linux Local Privilege Escalation to root                     |
 | Zoho Firewall Analyser, Zoho OpManger | CVE-2019-17421 | Linux Local Privilege Escalation to root                     |
-| nipper-ng (firewall security auditing tool) | CVE-2019-17422 | Remote Code Execution                     |
-|                    | CVE-2019-17423 | Remote Code Execution                     |
-|                    | CVE-2019-17424 | Remote Code Execution                     |
-|                    | CVE-2019-17425 | Remote Code Execution                     |
-| uTorrent           | CVE-2020-8437  | Remote Crash                     |
+| nipper-ng (firewall security auditing tool) | CVE-2019-17422 | Unauthenticated Remote Code Execution                     |
+|                    | CVE-2019-17423 | Unauthenticated Remote Code Execution                     |
+|                    | CVE-2019-17424 | Unauthenticated Remote Code Execution                     |
+|                    | CVE-2019-17425 | Unauthenticated Remote Code Execution                     |
+| uTorrent           | CVE-2020-8437  | Unauthenticated Remote Crash                     |
 | D-Link Router      | CVE-2021-27342 | Vulnerability Mitigation Bypass                     |
-| (Temporarily Redacted)     | CVE-2022-35420 | (Temporarily Redacted)                     |
+| ScadaLTS     | CVE-2022-35420 | Unauthenticated Remote Code Exectuion                     |
 
 # In The Media
 
