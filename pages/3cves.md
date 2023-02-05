@@ -15,7 +15,7 @@ feature-img: "assets/img/mdf-wood.jpg"
 | nipper-ng (firewall security auditing tool) | CVE-2019-17425 | Unauthenticated Remote Code Execution                     |
 | uTorrent           | CVE-2020-8437  | Unauthenticated Remote Crash                     |
 | D-Link Router      | CVE-2021-27342 | Vulnerability Mitigation Bypass                     |
-| ScadaLTS     | CVE-2022-35420 | Unauthenticated Remote Code Exectuion                     |
+| ScadaLTS     | CVE-2022-35420 | Admin Authentication Bypass                     |
 
 # In The Media
 
