@@ -11,7 +11,7 @@ favicon: assets/favicon.ico                             # Icon displayed in the 
 # Header and footer text
 header_text: mavlevin research # Change Blog header text
 header_feature_image: assets/img/whtaguy_research_bg.png
-footer_text: 2022 Guy Maverick Levin. All Rights Reserved.
+footer_text: 2023 Mav Levin All Rights Reserved.
 
 # Blog
 excerpt: true                                           # Or "truncate" (first 250 characters), "false" to disable
