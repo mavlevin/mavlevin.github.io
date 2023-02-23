@@ -5,6 +5,8 @@ permalink: /cve/
 feature-img: "assets/img/mdf-wood.jpg"
 ---
 
+# CVEs
+
 | Product            | CVE            | Vulnerability Impact |
 |--------------------|----------------|----------------------|
 | Serv-U FTP Server    | CVE-2019-12181 | Linux Local Privilege Escalation to root                     |
@@ -32,3 +34,15 @@ feature-img: "assets/img/mdf-wood.jpg"
 # In Hacker Tools
 
 [Metasploit Exploit Module](https://www.rapid7.com/db/modules/exploit/linux/local/servu_ftp_server_prepareinstallation_priv_esc/) for Serv-U FTP Server vulnerability
+
+# Other Awards
+
+2023 **[CPTC Globals in New York](https://cp.tc/previous-winners)** Second Place Team Placement
+
+2022 **[ETHGlobal San Francisco Hackathon](https://ethglobal.com/events/ethsanfrancisco2022/prizes#skale-network)** for developing [SecrETH](https://github.com/secrETH-xyz), a distributed, trustless, programmable, encrypted key-value store on the Ethereum blockchain.
+
+2022 **[CPTC Globals in New York](https://cp.tc/previous-winners)** First Place Technical Findings Award for finding 3 0-Days in 48 hours 
+
+2022 **[CPTC Globals in New York](https://cp.tc/previous-winners)** Second Place Team Placement
+
+
