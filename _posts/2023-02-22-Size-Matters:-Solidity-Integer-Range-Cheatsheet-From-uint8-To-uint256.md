@@ -1,7 +1,7 @@
 ---
 layout: post
 title: >
-    Size Matters: Solidity Integer Range Cheatsheet (From uint8 To uint256)
+    Size Matters: Solidity Integer Range Cheatsheet From uint8 To uint256
 hide_title: false
 tags: ['solidity', 'web3', 'ethereum']
 excerpt: A simple cheatsheet to Solidity Integer ranges from uint8 to uint256. In this case, size does matter.
