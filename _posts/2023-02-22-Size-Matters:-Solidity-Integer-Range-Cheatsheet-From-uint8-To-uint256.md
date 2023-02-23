@@ -11,7 +11,6 @@ author: guy
 
 {% include image.html url="/assets/img/posts/Solidity-Integer-Ranges-uint8-to-uint256.png" caption="" alt="Solidity Integer Ranges" %}
 
-
 # Solidity Integers
 
 Solidity supports 64 different integer types. Each integer type is either signed `int` or unsigned `uint` and of a specific size. Integer sizes must be multiples of 8, and between 8 and 256 inclusive.
