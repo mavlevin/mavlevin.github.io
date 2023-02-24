@@ -13,9 +13,9 @@ author: guy
 
 # Solidity Integers
 
-Solidity supports 64 different integer types! However, we often default to using `uint256`. Yet, we can often optimize smart contracts to save gas by using smaller integer types. For example, to save a percent, which must be between 1-100, use `uint8`.
+Solidity supports 64 different integer types! However, we often default to using `uint256` which is more expensive to store than smaller, usually adequate, integer types. For example, for a varible that saves a basis point (a common financial term meaning one hundredth of one percent), which must be between 0-10000, use `uint16`.
 
-I initially created this chart with all 64 Solidity integer types and their minimum and maximum value for my own needs when looking for what variable type to use. I hope you enjoy using this chart too!
+I initially created this chart with each Solidity integer type and its minimum and maximum value for my own needs. There wasn't a similar online chart, so I found myself recrating this chart each time I needed it. This time I decided to save and publish it, and I hope you enjoy using this chart too!
 
 # Solidity Integer Ranges
 
