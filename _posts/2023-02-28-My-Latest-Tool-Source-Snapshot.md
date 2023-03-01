@@ -20,7 +20,7 @@ Announcing my latest developer tool: [Source Snapshot](https://source-snapshot.m
 
 # Source Snapshot Use Case
 
-**tl;dr: Use Source Snapshot to get an overview of a new codebase**
+**Use Source Snapshot to get an overview of a new codebase**
 
 This tool was born out of a personal need. I often found myself trying to get a bird's eye view of a new codebase I had been introduced to, but couldn't find a free, online tool to do so! So I created Source Snapshot. Now, understanding source code file structure is just a drag away on [Source Snapshot](https://source-snapshot.mavlevin.com/).
 
