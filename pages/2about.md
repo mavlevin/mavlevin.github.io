@@ -13,4 +13,4 @@ My name is Guy Maverick Levin, and I go by Mav. My computer science passion star
 
 I taught myself how to program, then how to break programs, and in high school I hacked my country's national grading system. After graduating, I served in the military, founded [CyberQueens](https://cyberqueens.org/) and mentored my community's local FRC Robotics Team.
 
-I now study Computer Science at [Stanford](https://profiles.stanford.edu/guy-levin), and founded Stanford ZERO, Stanford's Zero-Day Exploit Research Organiziation (organization website coming soon ;).
+I now study Computer Science at [Stanford](https://profiles.stanford.edu/guy-levin), and founded [Stanford ZERO](https://zero.stanford.edu/), Stanford's Zero-Day Exploit Research Organiziation.
